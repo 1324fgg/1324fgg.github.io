@@ -1,0 +1,43 @@
+{
+  "name": "zerocup_wanhu",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "commit": "git-cz",
+    "dev": "vite",
+    "build": "vite-ssg build",
+    "preview": "vite preview",
+    "lint": "eslint src --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --no-error-on-unmatched-pattern"
+  },
+  "dependencies": {
+    "vue": "^3.2.37",
+    "vue-router": "^4.1.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.19.0",
+    "@babel/eslint-parser": "^7.18.9",
+    "@commitlint/cli": "^17.1.2",
+    "@commitlint/cz-commitlint": "^17.1.2",
+    "@vitejs/plugin-vue": "^3.1.0",
+    "@vueuse/head": "^0.9.8",
+    "commitizen": "^4.2.5",
+    "eslint": "^8.23.1",
+    "eslint-config-alloy": "^4.6.2",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-vue": "^9.4.0",
+    "inquirer": "^8.2.4",
+    "node-sass": "^7.0.3",
+    "prettier": "^2.7.1",
+    "sass": "^1.55.0",
+    "sass-loader": "^13.1.0",
+    "vite": "^3.1.0",
+    "vite-ssg": "^0.21.2",
+    "vue-eslint-parser": "^9.1.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "@commitlint/cz-commitlint"
+    }
+  }
+}
